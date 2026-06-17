@@ -6,7 +6,7 @@ pipeline{
     stages{
       stage('Checkout'){
         steps{
-          sh 'https://github.com/Ranjana2225/maven-ranjana1.git'
+          git 'https://github.com/Ranjana2225/maven-ranjana1.git'
         }
       }
       stage('compile'){
